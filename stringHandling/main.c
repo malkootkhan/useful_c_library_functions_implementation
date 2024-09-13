@@ -27,5 +27,9 @@ int main()
     strcat(str1, str2);
     printf("resulting string: %s\n", str1);
 
+
+    /*strlen(s) operation implementation*/
+    printf("length of str1: %d\n", strlen(str1));
+
     return 0;
 }
