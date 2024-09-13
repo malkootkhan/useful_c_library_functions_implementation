@@ -4,6 +4,7 @@
 /*
  *      strcat(string1, string2)        : string append concatenation  
  *      strlen(string)                  : returning string length
+ *      strcpy(str1, str2)              : copying str2(source) to str1(destination) 
  *      strcmp(str1, str2)              : string comparing operation
  *      strrev(str)                     : reverse string
  *      SUBSTRING(str, position, len)   : extracting substring from position to the size
@@ -30,6 +31,12 @@ int main()
 
     /*strlen(s) operation implementation*/
     printf("length of str1: %d\n", strlen(str1));
+
+    /*cpying string */
+    printf("str1: %s\n", str1);
+    printf("str2: %s\n", str2);
+    strcpy(str1, str2);
+    printf("str1: %s\n", str1);
 
     return 0;
 }
